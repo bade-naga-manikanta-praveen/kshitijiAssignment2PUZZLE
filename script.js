@@ -73,11 +73,11 @@ var turns2=0;
 function CLICK2(){
    
     currTile2=this;
-    if(currTile2.src === "http://127.0.0.1:5500/15.jpg"){
+    if(currTile2.src === "https://bade-naga-manikanta-praveen.github.io/kshitijiAssignment2PUZZLE/15.jpg"){
         return;
     }
     for(let l=0;l<25;l++){
-        if(tile2[l].src === "http://127.0.0.1:5500/15.jpg"){
+        if(tile2[l].src === "https://bade-naga-manikanta-praveen.github.io/kshitijiAssignment2PUZZLE/15.jpg"){
             otherTile2=tile2[l];
             break;
         }
